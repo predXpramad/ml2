@@ -31,6 +31,8 @@ def linear_regression_boston():
     print("Mean Squared Error:", mean_squared_error(y_test, y_pred))
     print("R^2 Score:", r2_score(y_test, y_pred))
 
+linear_regression_boston()
+
 
 def polynomial_regression_auto_mpg():
     url = "https://archive.ics.uci.edu/ml/machine-learning-databases/auto-mpg/auto-mpg.data"
@@ -58,4 +60,6 @@ def polynomial_regression_auto_mpg():
     print("Polynomial Regression - Auto MPG Dataset")
     print("Mean Squared Error:", mean_squared_error(y_test, y_pred))
     print("R^2 Score:", r2_score(y_test, y_pred))
+
+polynomial_regression_auto_mpg()
     
